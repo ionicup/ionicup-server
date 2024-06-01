@@ -1,5 +1,6 @@
 import Foundation
 import Hummingbird
+import IonicupModels
 
 struct CRUDController<Source: CRUDSource> where Source.Model: ResponseCodable, Source.Model.ID == UUID {
     
