@@ -1,5 +1,5 @@
 #------- build -------
-FROM swift:centos as builder
+FROM swift as builder
 
 # set up the workspace
 RUN mkdir /workspace
