@@ -7,7 +7,6 @@ WORKDIR /workspace
 
 # copy the source to the docker image
 COPY . /workspace
-COPY ../ionicup-models /workspace
 
 RUN swift build -c release --static-swift-stdlib
 
