@@ -1,5 +1,5 @@
 {
-  "originHash" : "52affcd6d2f9b0609f86c3b89bddd6da024e718ad0f82c6a0a68018089d7d6c5",
+  "originHash" : "a94b87cbd43e776865fef829b36b942dec4314c886087fc388c5e5250c1cbdf9",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hummingbird-project/hummingbird",
       "state" : {
-        "revision" : "14795f2bfe621445755180e0c3812aabf05c13aa",
-        "version" : "2.0.0-beta.2"
+        "revision" : "aed1e369c331f2c20780317e657d139e20522ada",
+        "version" : "2.0.0-beta.5"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/ionicup/ionicup-models",
       "state" : {
         "branch" : "main",
-        "revision" : "3e530e1b361e0a0901eaf2e62c90b549da9ffa11"
+        "revision" : "4531ae92c5ac5e45ee0e09b30f089632e4e125ed"
       }
     },
     {
