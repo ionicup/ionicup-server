@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.3.0"),
-    .package(url: "https://github.com/hummingbird-project/hummingbird.git", from: "2.0.0-beta.2"),
+    .package(url: "https://github.com/hummingbird-project/hummingbird.git", from: "2.0.0-beta.5"),
     .package(url: "https://github.com/ionicup/ionicup-models", branch: "main")
   ],
   targets: [
