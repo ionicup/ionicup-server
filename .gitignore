@@ -4,6 +4,7 @@
 /Packages
 /*.xcodeproj
 xcuserdata/
+**/xcuserdata/
 .*.sw?
 /Benchmarks/.swiftpm
 /Benchmarks/.build
