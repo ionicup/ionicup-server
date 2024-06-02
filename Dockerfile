@@ -2,11 +2,11 @@
 FROM swift:latest as builder
 
 # Create and set the working directory
-RUN mkdir /workspace
-WORKDIR /workspace
+RUN mkdir /ionicup-server
+WORKDIR /ionicup-server
 
 # Copy the current directory contents into the container
-COPY . /workspace
+COPY . /ionicup-server
 
 # Build the Swift application
 RUN swift build -c release --static-swift-stdlib
@@ -15,7 +15,7 @@ RUN swift build -c release --static-swift-stdlib
 FROM swift:slim
 
 # Copy the built executable from the builder stage
-COPY --from=builder /workspace/.build/release/IonicupServer /
+COPY --from=builder /ionicup-server/.build/release/IonicupServer /
 
 # Run the executable
 ENTRYPOINT ["/IonicupServer"]
